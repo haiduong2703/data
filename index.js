@@ -59,7 +59,7 @@ function HandleDeleteCourse(id) {
       return response.json();
     })
     .then(function () {
-      var liItem = querySelector(".coures-item-" + id);
+      var liItem = querySelector(".course-item-" + id);
       if (liItem) {
         liItem.remove();
       }
